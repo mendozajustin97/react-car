@@ -67,6 +67,30 @@ const ContactForm = (props: ContactFormProps) => {
           <label htmlFor="year">Year</label>
           <Input {...register("year")} name="year" placeholder="Year" />
         </div>
+        <div>
+          <label htmlFor="body style">Body Style</label>
+          <Input
+            {...register("body_style")}
+            name="body_style"
+            placeholder="Body Style"
+          />
+        </div>
+        <div>
+          <label htmlFor="value">Value</label>
+          <Input {...register("value")} name="value" placeholder="Value" />
+        </div>
+        <div>
+          <label htmlFor="color">Color</label>
+          <Input {...register("color")} name="color" placeholder="Color" />
+        </div>
+        <div>
+          <label htmlFor="seating">Seating</label>
+          <Input
+            {...register("seating")}
+            name="seating"
+            placeholder="Seating"
+          />
+        </div>
         <div className="flex p-1">
           <Button className="flex justify-start m-3 bg-slate-300 p-2 rounded hover:bg-slate-800 text-white">
             Submit
