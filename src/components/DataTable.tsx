@@ -11,13 +11,13 @@ import { useGetData } from "../custom-hooks/FetchData";
 
 const columns: GridColDef[] = [
   { field: "id", headerName: "ID", width: 90, hideable: true },
-  { field: "make", headerName: "Make", flex: 0.5 },
-  { field: "model", headerName: "Model", flex: 0.5 },
-  { field: "year", headerName: "Year", flex: 0.5 },
-  { field: "body_style", headerName: "Body Style", flex: 0.5 },
-  { field: "value", headerName: "Value", flex: 0.5 },
-  { field: "color", headerName: "Color", flex: 0.5 },
-  { field: "seating", headerName: "Seating", flex: 0.5 },
+  { field: "make", headerName: "Make", flex: 1 },
+  { field: "model", headerName: "Model", flex: 1 },
+  { field: "year", headerName: "Year", flex: 1 },
+  { field: "body_style", headerName: "Body Style", flex: 2 },
+  { field: "value", headerName: "Value", flex: 2 },
+  { field: "color", headerName: "Color", flex: 2 },
+  { field: "seating", headerName: "Seating", flex: 3 },
 ];
 
 function DataTable() {
